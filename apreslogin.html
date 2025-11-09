@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Piero</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Don Piero</h1>
+        </div>
+        <ul>
+            <a href="#acceuil"><li>Acceuil</li></a>
+            <a href="#menu"><li>Menu</li></a>
+            <a href="#contact"><li>Contact</li></a>
+            <a href="#" id="cart-link"><li>Panier</li></a>
+
+        </ul>
+    </header>
+    <!--panier    -->
+    <div id="mini-cart" class="mini-cart">
+        <h3>Mon Panier</h3>
+        <ul id="cart-items"></ul>
+        <p>Total : <span id="cart-total">0</span> DT</p>
+        <button id="close-cart">Fermer</button>
+    </div>
+    
+    
+    <section class="acceuil" id="acceuil">
+        <div class="ac">
+            <h3>Bienvenue chez Don Piero</h3>
+        <p>Plongez au cœur de l’Italie sans quitter la ville. <br>
+            Chez Don Piero, chaque plat est une invitation au voyage :
+le parfum du basilic frais, la chaleur du four à bois,
+le goût authentique de la véritable pizza napolitaine. <br>
+
+Ici, la cuisine est une histoire d’amour et de passion. <br>
+Nos recettes sont préparées à partir d’ingrédients italiens soigneusement sélectionnés,
+dans une ambiance chaleureuse et conviviale qui vous transporte directement à Naples. <br>
+
+Asseyez-vous, savourez, et laissez la magie italienne opérer.
+        </p>
+        </div>
+        
+    </section>
+    <section class="menu" id="menu">
+        <h2>Notre Menu </h2>
+        <h4>Nos Pizzas</h4>
+        <div class="sectionpizza">
+            
+            <div class="pizza1">
+                <img src="images/pizzamargerita.jpg" alt="">
+                <h5>Margherita</h5>
+                <p>Sauce tomate, mozzarella, basilic frais</p>
+                <button>Ajouter aux panier</button>
+            </div>
+            <div class="pizza2">
+                <img src="images/4fromage.avif" alt="">
+                <h5>Quattro Formaggi</h5>
+                <p>Mozzarella, gorgonzola, parmesan, ricotta</p>
+                <button>Ajouter aux panier</button>
+            </div>
+            <div class="pizza3">
+                <img src="images/Diavola.jpg" alt="">
+                <h5>Diavola</h5>
+                <p>Sauce tomate, mozzarella, salami piquant</p>
+                <button>Ajouter aux panier</button>
+            </div>
+        </div>
+        <h4>Nos Pâtes</h4>
+        <div class="sectionpates">
+            
+            <div class="pate1">
+                <img src="images/Spaghetti_Carbonara.jpg" alt="">
+                <h5>Spaghetti Carbonara</h5>
+                <p>Crème, œuf, pancetta, parmesan</p>
+                <button>Ajouter aux panier</button>
+            </div>
+            <div class="pate2">
+                <img src="images/4fromage.avif" alt="">
+                <h5>Tagliatelle al Pesto</h5>
+                <p>Sauce basilic, ail, parmesan, pignons</p>
+                <button>Ajouter aux panier</button>
+            </div>
+            <div class="pate3">
+                <img src="images/Lasagnes.jpg" alt="">
+                <h5>Lasagnes alla Bolognese</h5>
+                <p>Sauce tomate, viande hachée, béchamel</p>
+                <button>Ajouter aux panier</button>
+            </div>
+        </div>
+        <h4>Nos Desserts</h4>
+        <div class="sectiondesserts">
+            
+            <div class="dessert1">
+                <img src="images/Tiramisu.jpg" alt="">
+                <h5>Tiramisu</h5>
+                <p>Mascarpone, café, cacao</p>
+                <button>Ajouter aux panier</button>
+            </div>
+            <div class="dessert2">
+                <img src="images/Panna _Cotta.webp" alt="">
+                <h5>Panna Cotta</h5>
+                <p>Crème vanille et coulis de fruits rouges</p>
+                <button>Ajouter aux panier</button> 
+            </div>
+            <div class="dessert3">
+                <img src="images/Lasagnes.jpg" alt="">
+                <h5>Cannoli Siciliani</h5>
+                <p>Pâte croustillante, ricotta sucrée</p>
+                <button>Ajouter aux panier</button>
+            </div>
+            
+        </div>
+        <h4>Nos Boissons</h4>
+        <div class="sectionboissons">
+                
+                <div class="boisson1">
+                    <img src="images/Limonata.jpg" alt="">
+                    <h5>Limonata maison</h5>
+                    <p>Citron frais et menthe</p>
+                    <button>Ajouter aux panier</button>
+                </div>
+                <div class="boisson2">
+                    <img src="images/Cappuccino.webp" alt="">
+                    <h5>Cappuccino</h5>
+                    <p>Espresso italien avec mousse de lait onctueuse</p>
+                    <button>Ajouter aux panier</button>
+                </div>
+                <div class="boisson3">
+                    <img src="images/the.jpg" alt="">
+                    <h5>Thé glacé maison</h5>
+                    <p>Infusion au citron et à la menthe</p>
+                    <button>Ajouter aux panier</button>
+                </div>
+        </div>
+    </section>
+    <div class="br"></div>
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+216 71 123 456</span>
+        </div>
+
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>contact@donpiero.tn</span>
+        </div>
+
+        <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Rue de la Saveur Italienne, Tunis</span>
+        </div>
+
+        <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <span>Lundi – Dimanche : 11h30 – 23h00</span>
+        </div>
+    </section>
+    
+    <footer>
+        <i class="fas fa-copyright"></i>
+        2025 Don Piero. All rights reserved.
+        Développé par Nermine Abdelli et Roua Oueslati
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
